@@ -11,3 +11,4 @@ function emote() {
    document.getElementById('happy').innerHTML= "&#x1F34E; &#x1F953; &#x1F32F; &#x1F95E;"       
 
 }
+
