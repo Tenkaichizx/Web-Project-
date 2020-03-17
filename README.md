@@ -1,2 +1,4 @@
 # Web-Project-
-Website
+A really cool website
+
+By TenkaichiZX (and Pep)
