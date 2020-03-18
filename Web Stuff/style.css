@@ -5,11 +5,13 @@
     font-family: 'exo 2 ', 'Courier New', Courier, monospace ;    
 }
 
+
 body{
-    width: 100vw;
-    height: 100vh;
-    overflow:hidden;
+    width: fixed;
+    height: fixed;
+    overflow: scroll;
     background:linear-gradient(45deg,#2ecc71,#16a085);
+
 }
 
 .clock{
@@ -20,6 +22,9 @@ body{
     border-radius: 250px;
     border:50px solid rgb(255, 0, 0);
     background-color: rgb(255, 255, 255);
+    top: 50%;
+    left: 40%;
+    margin-right: -40%;
 }
 
 .clock:after{
@@ -188,3 +193,5 @@ body{
     width: 5px;
     border-radius: 4px;   
 }
+
+
