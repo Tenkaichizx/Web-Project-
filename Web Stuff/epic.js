@@ -16,11 +16,12 @@ const secDiv = document.getElementById('sec');
 const minDiv = document.getElementById('min');
 const hourDiv = document.getElementById('hour');
 
-setInterval(updateClock, 1000);
+setInterval(updateClock, 1);
 
 function updateClock(){
     let date = new Date();
-    let sec = date.getSeconds() / 60;
+    let ms = date.getMilliseconds() / 1000;
+    let sec = (date.getSeconds() + ms) / 60;
     let min = (date.getMinutes() + sec) / 60;
     let hour = (date.getHours() + min)/ 12;
    

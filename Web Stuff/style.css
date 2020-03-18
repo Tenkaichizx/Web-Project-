@@ -29,7 +29,7 @@ body{
     height: 100%;
     top: 0;
     left: 0;
-    background: linear-gradient(285deg, rgba(00,0,0,0.175) 50%, rgba(0,0,0,0.1) 50%); 
+    background: linear-gradient(-45deg, rgba(0,0,0,0.175) 50%, rgba(0,0,0,0.1) 50%); 
 }
 
 .clock:before{
@@ -53,7 +53,7 @@ body{
     text-align: center;
     font-size: 2rem;
     font-weight: 700;
-    padding: 18px;
+    padding: 20px;
 }
 
 .num::after{
@@ -187,14 +187,3 @@ body{
     width: 8px;
     border-radius: 4px;   
 }
-
-
-
-
-
-
-
-
-
-
-
