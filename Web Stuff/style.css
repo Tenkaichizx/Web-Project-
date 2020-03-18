@@ -2,7 +2,7 @@
     padding:0; 
     margin:0;
     box-sizing: border-box;
-    font-family: 'exo 2 ', sans-serif ;    
+    font-family: 'exo 2 ', 'Courier New', Courier, monospace ;    
 }
 
 body{
@@ -18,8 +18,8 @@ body{
     height: 500px;
     overflow: hidden;
     border-radius: 250px;
-    border:10px solid #111;
-    background-color: #fff;
+    border:50px solid rgb(255, 0, 0);
+    background-color: rgb(255, 255, 255);
 }
 
 .clock:after{
@@ -62,9 +62,10 @@ body{
     top: 0;
     left: 50%;
     transform: translateX(-50%);
-    width: 5px;
+    width: 3px;
     height: 15px;
     background-color: black;
+    border-radius: 4px;
 }
 
 .num1 {
@@ -172,18 +173,18 @@ body{
 }
 
 .sec{
-    width: 1px;
+    width: 2px;
     height: 40%;
 }
 
 .min{
     height: 38%;
-    width: 4px;
+    width: 3px;
     border-radius: 2px;
 }
 
 .hour{
     height: 28%;
-    width: 8px;
+    width: 5px;
     border-radius: 4px;   
 }
