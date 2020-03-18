@@ -30,4 +30,4 @@ function updateClock(){
 
 }
 
-updateClock() 
+updateClock(); 
