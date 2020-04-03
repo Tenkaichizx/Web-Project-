@@ -23,7 +23,7 @@ body{
     border:50px solid rgb(255, 0, 0);
     background-color: rgb(255, 255, 255);
     top: 50%;
-    left: 40%;
+    left: 37%;
     margin-right: -40%;
 }
 
@@ -192,6 +192,55 @@ body{
     height: 28%;
     width: 5px;
     border-radius: 4px;   
+}
+
+
+#kenshiro {
+   text-align: center;
+}
+
+img {
+    top: 50%;
+    left: 40%;
+      width: 20% ;
+      height: auto;
+      position: relative;
+    }
+
+
+.div {
+    width: 20%;
+    height: 50px; 
+    position: relative;
+    top: 50%;
+    left: 40%;
+}
+
+#ytvideo {
+    display: block;
+    margin: 0 auto;
+}
+
+#applehome {
+    text-align: center;
+ }
+ 
+#noodle {
+    text-align: center;
+}
+
+#demo {
+   text-align: center;
+}
+
+
+#happy {
+    text-align: center;
+}
+
+#bytton {
+    display: block;
+    margin: 0 auto;
 }
 
 

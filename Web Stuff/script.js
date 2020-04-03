@@ -33,11 +33,12 @@ function updateClock(){
 
 updateClock(); 
 
-
-$(document).ready(function(){
-    $('.your-class').slick({
-      setting-name: setting-value
-    });
-  });
-
-  $('.single-item').slick();
+$(document).ready(() => {
+ $('#slideshow .slick').slick({
+   autoplay:true,
+   autoplaySpeed:2000,
+   dots: true,
+   speed: 4000, 
+   fade: true,
+ });  
+});
