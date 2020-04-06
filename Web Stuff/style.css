@@ -243,4 +243,11 @@ img {
     margin: 0 auto;
 }
 
+div.hidden{
+    display: none;
+}
 
+div.small-container{
+  margin: auto;
+  width: 200px;
+}

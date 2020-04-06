@@ -2,11 +2,14 @@
 <html lang="en" >
 <head>
   <meta charset="UTF-8">
-  <title>CodePen - Web Project</title>
+  <title>Web Project</title>
   <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css'>
 <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css'>
 <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css'><link rel="stylesheet" href="./style.css">
-
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
 </head>
 <body>
 <!-- partial:index.partial.html -->
@@ -21,35 +24,42 @@
     <iframe id="ytvideo" width="560" height="315" src="https://www.youtube.com/embed/KotXnKZ3O_Y" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
     </iframe> 
   
+    <div class="container p-3 my-3 bg-primary text-white">
+          <h1 id="applehome">This is the home of the Apples</h1>
+          <p id="applehome">This is an apple paragraph</p>
+    </div>  
+
+
+
+
+  <div id="first" class="container p-3 my-3 bg-warning text-white hidden">
+  <p id = demo ></p>
+  </div>
+  <button id="bytton" type="button"
+  onclick="epic()" class="btn btn-info btn-lg" data-toggle="modal"   data-target="#myModal"> 
+  Click me to display Date and Time.</button>
+
+
+
     
 
-    <h1 id="applehome">This is the home of the Apples</h1>
-<p id="applehome">This is an apple paragraph</p>
-
-
-
-
-
-<p id = demo ></p>
-    <button id="bytton" type="button"
-    onclick="epic()" class="btn btn-info btn-lg" data-toggle="modal"   data-target="#myModal"> 
-    Click me to display Date and Time.</button>
-
     
-    
+    <div id="second" class="container p-3 my-3 bg-primary text-white hidden small-container">
     <p id = noodle ></p>
+    </div>
     <button id="bytton" type="button"
     onclick="woah()" class="btn btn-success btn-lg" data-toggle="modal"   data-target="#myModal"> 
     Click me to display Year.</button>
     
       
 
-    
+    <div id="third" class="container p-3 my-3 bg-danger text-white hidden small-container"> 
     <p id = happy ></p>
+    </div> 
     <button id="bytton" type="button"
     onclick="emote()" class="btn btn-warning btn-lg" data-toggle="modal"   data-target="#myModal"> 
     Click me to display Emote.</button>
-
+    
  
 
 
